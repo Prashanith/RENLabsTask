@@ -6,8 +6,8 @@ import StyledTabs from '../globalStyledComponents/styledTabs';
 
 
 function ViewData() {
-    const [currentPrice, setcurrentPrice] = useState(1);
-    const [previousPrice, setPreviousPrice] = useState(2);
+    const [currentPrice, setcurrentPrice] = useState(0);
+    const [previousPrice, setPreviousPrice] = useState(0);
     const [activeTab, setActiveTab] = useState(1);
     const [timePeriod, setTimePeriod] = useState(6);
 
