@@ -1,0 +1,63 @@
+.viewData{
+    padding: 3vh 3vw;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items:flex-start;
+    width: 100vw;
+}
+
+.currentPrice{
+    font-size: 70px;
+    font-weight: bold;
+    color: #1A243A;
+}
+
+sup{
+    position: relative;
+    top: -6px;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: cadetblue; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    
+    letter-spacing: 0em;
+    
+    color: #BDBEBF;
+}
+
+.changeInPrice{   
+    color:  #67BF6B;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operations{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    color: #6F7177;
+    cursor: pointer;
+}
+
+.iconButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.time{
+
+}
