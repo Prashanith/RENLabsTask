@@ -33,28 +33,28 @@ function API() {
 
   return (
     <div>
-      <table>
-        <tr>
-          <th>Product</th>
-          <th>Category</th>
-          <th>Price</th>
-          <th>Popularity</th>
+      <table className='dataTable'>
+        <tr className='tableRow'>
+          <th className='tableHead'>Product</th>
+          <th className='tableHead'>Category</th>
+          <th className='tableHead'>Price</th>
+          <th className='tableHead'>Popularity</th>
         </tr>
         {
           data &&
           Object.keys(data).map((k)=>{
             return(
-              <tr key={k}>
-                <td>
+              <tr key={k} className="tableRow">
+                <td className='tableData'>
                 {data[k]["title"]}+" "+{k}
                 </td>
-                <td>
+                <td className='tableData'>
                 {data[k]["subcategory"]}
                 </td>
-                <td>
+                <td className='tableData'>
                 {data[k]["price"]}
                 </td>
-                <td>
+                <td className='tableData'>
                 {data[k]["popularity"]}
                 </td>
               </tr>

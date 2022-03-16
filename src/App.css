@@ -1,19 +1,18 @@
 @import url('http://fonts.cdnfonts.com/css/circular-std');
-
-table {
+.dataTable {
   font-family: 'Circular Std', sans-serif;
   border-collapse: collapse;
   width: 70%;
   text-align: center;
 }
   
-  td, th {
+  .tableData, .tableHead {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
   }
   
-  tr:nth-child(even) {
+  .tableRow:nth-child(even) {
     background-color:#e1e1e1;
   }
 
