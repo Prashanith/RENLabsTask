@@ -44,9 +44,7 @@ function ViewData() {
                             </div>
                             <div className={styles.time}>
                                 <StyledTabs 
-                                active={timePeriod} onTabChange={setTimePeriod}
-                                
-                                >
+                                active={timePeriod} onTabChange={setTimePeriod} >
                                     <Tabs.Tab label="1d" ></Tabs.Tab>
                                     <Tabs.Tab label="3d"></Tabs.Tab>
                                     <Tabs.Tab label="1w"></Tabs.Tab>

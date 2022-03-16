@@ -42,7 +42,7 @@ function API() {
         </tr>
         {
           data &&
-          Object.keys(data).sort(function compareFn(a, b) { return parseInt(data[a]["popularity"])-parseInt(data[b]["popularity"])}).map((k)=>{
+          Object.keys(data).map((k)=>{
             return(
               <tr key={k}>
                 <td>
